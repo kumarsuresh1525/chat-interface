@@ -140,7 +140,8 @@ git clone [your-repository-url]
 cd [project-directory]
 
 # Start with Docker
-docker-compose up
+yarn install
+yarn start
 
 # Access application
 open http://localhost:3000
